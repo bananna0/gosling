@@ -1,11 +1,32 @@
-<!--
-<div class="header" style="text-align:center">
-    <div class="">{{title}}</div>
+<div class="mdl-layout mdl-layout--fixed-header">
+  <div class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout__title">{{title}}</div>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+         <a class="mdl-navigation__link">Link 1</a>
+         <a class="mdl-navigation__link">Link 2</a>
+         <a class="mdl-navigation__link">Link 3</a>
+      </nav>
+    </div>
+  </div>
+  <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div> 
+  <div class="mdl-layout-content">
+        <!--<router-outlet></router-outlet>-->
+  </div>
 </div>
 <h2> Choose </h2>
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> Смотреть </button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> Играть </button> -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> Играть </button>
 
+<!--
 <div class="demo-container demo-layout-transparent">
     <mdl-layout>
        <mdl-layout-header mdl-layout-header-transparent>
@@ -33,3 +54,4 @@
     </mdl-layout>
  </div>
  <button mdl-button (click)="mdlLayout1.toggleDrawer()" mdl-button-type="raised" mdl-colored="primary">Toggle Drawer</button>
+-->
