@@ -1,7 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MdlModule } from 'angular2-mdl';
-import { RouterModule } from '@angular/router'
+import { RouterModule } from '@angular/router';
+import { VgCoreModule } from 'videogular2/core';
+import { VgControlsModule } from 'videogular2/controls';
+import { VgOverlayPlayModule } from 'videogular2/overlay-play';
+import { VgBufferingModule } from 'videogular2/buffering';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
@@ -16,11 +20,15 @@ import { PhotoComponent } from './photo/index';
     HomeComponent,
     GameComponent,
     MusicComponent,
-    PhotoComponent
+    PhotoComponent  
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, { useHash: true })
+    RouterModule.forRoot(routes, { useHash: true }),
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]
