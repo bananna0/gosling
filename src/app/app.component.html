@@ -4,9 +4,9 @@
       <div class="mdl-layout__title">{{title}}</div>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-         <a class="mdl-navigation__link">Link 1</a>
-         <a class="mdl-navigation__link">Link 2</a>
-         <a class="mdl-navigation__link">Link 3</a>
+         <a class="mdl-navigation__link"> Гослинг wiki </a> <!-- [routerLink]="['/layout/l1']-->
+         <a class="mdl-navigation__link">  </a>
+         <a class="mdl-navigation__link"> Ссылки </a>
       </nav>
     </div>
   </div>
@@ -14,33 +14,3 @@
         <router-outlet></router-outlet>
   </div>
 </div>
-
-<!--
-<div class="demo-container demo-layout-transparent">
-    <mdl-layout>
-       <mdl-layout-header mdl-layout-header-transparent>
-          <mdl-layout-header-row>
-             <mdl-layout-title>Title</mdl-layout-title>
-             <mdl-layout-spacer></mdl-layout-spacer>
-             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" [routerLink]="['/layout/l1']">Link 1</a>
-                <a class="mdl-navigation__link" [routerLink]="['/layout/l2']">Link 2</a>
-                <a class="mdl-navigation__link" [routerLink]="['/layout/l3']">Link 3</a>
-             </nav>
-          </mdl-layout-header-row>
-       </mdl-layout-header>
-       <mdl-layout-drawer>
-          <mdl-layout-title>Title</mdl-layout-title>
-          <nav class="mdl-navigation">
-             <a class="mdl-navigation__link" [routerLink]="['/layout/l1']" (click)="mdlLayout1.closeDrawer()">Link 1</a>
-             <a class="mdl-navigation__link" [routerLink]="['/layout/l2']" (click)="mdlLayout1.closeDrawer()">Link 2</a>
-             <a class="mdl-navigation__link" [routerLink]="['/layout/l3']" (click)="mdlLayout1.closeDrawer()">Link 3</a>
-          </nav>
-       </mdl-layout-drawer>
-       <mdl-layout-content>
-          <router-outlet></router-outlet>
-       </mdl-layout-content>
-    </mdl-layout>
- </div>
- <button mdl-button (click)="mdlLayout1.toggleDrawer()" mdl-button-type="raised" mdl-colored="primary">Toggle Drawer</button>
--->

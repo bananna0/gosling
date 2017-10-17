@@ -1,6 +1,6 @@
 .card-container {
     margin-top: 50px;
-
+    margin-bottom: 50px;
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
@@ -10,6 +10,54 @@
     align-content: space-around;
 }
 
-.welcome-card {
-    background-image: url(../../images/header2.jpg);
+.music-card {
+    background: url(../../images/card_music.jpg) center/cover;
+    background-image: url(../../images/card_music.jpg);
+    height: 176px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial
+}
+
+.photo-card {
+    background: url(../../images/card_photo.jpg) center/cover;
+    background-image: url(../../images/card_photo.jpg);
+    height: 176px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial
+}
+
+.game-card {
+    background: url(../../images/card_game.jpg) center/cover;
+    background-image: url(../../images/card_game.jpg);
+    height: 176px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial
+}
+
+.merch-card {
+    background: url(../../images/card_merch.jpg) center/cover;
+    background-image: url(../../images/card_merch.jpg);
+    height: 176px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial
 }

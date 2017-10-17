@@ -6,10 +6,17 @@ import { RouterModule } from '@angular/router'
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/index';
+import { GameComponent } from './game/index';
+import { MusicComponent } from './music/index';
+import { PhotoComponent } from './photo/index';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    GameComponent,
+    MusicComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,
