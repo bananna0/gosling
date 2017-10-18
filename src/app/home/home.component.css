@@ -3,37 +3,41 @@
     margin-bottom: 50px;
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: space-around;
 }
 
+.mdl-card {
+    margin: 15px;
+}
+
+.mdl-card__title {
+    height: 300px;
+}
+
 .music-card {
     color: white;
     background: url(../../images/card_music.jpg) center/cover;
-    background-image: url(../../images/card_music.jpg);
-    height: 300px;   
+    background-image: url(../../images/card_music.jpg);   
 }
 
 .photo-card {
     color: white;
     background: url(../../images/card_photo.jpg) center/cover;
     background-image: url(../../images/card_photo.jpg);
-    height: 400px;
 }
 
 .game-card {
     color: white;
     background: url(../../images/card_game.jpg) center/cover;
     background-image: url(../../images/card_game.jpg);
-    height: 200px;
 }
 
 .merch-card {
     color: white;
     background: url(../../images/card_merch.jpg) center/cover;
     background-image: url(../../images/card_merch.jpg);
-    height: 250px;
 }
