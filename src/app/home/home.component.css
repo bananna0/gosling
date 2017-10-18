@@ -13,7 +13,7 @@
 .music-card {
     background: url(../../images/card_music.jpg) center/cover;
     background-image: url(../../images/card_music.jpg);
-    height: 176px;
+    height: 300px;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -26,7 +26,7 @@
 .photo-card {
     background: url(../../images/card_photo.jpg) center/cover;
     background-image: url(../../images/card_photo.jpg);
-    height: 176px;
+    height: 400px;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -39,7 +39,7 @@
 .game-card {
     background: url(../../images/card_game.jpg) center/cover;
     background-image: url(../../images/card_game.jpg);
-    height: 176px;
+    height: 200px;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -52,7 +52,7 @@
 .merch-card {
     background: url(../../images/card_merch.jpg) center/cover;
     background-image: url(../../images/card_merch.jpg);
-    height: 176px;
+    height: 250px;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
