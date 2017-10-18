@@ -2,3 +2,7 @@
     height: 100%;
     background-image: url("../images/header3.jpg");
 }
+
+.home-icon {
+    padding-right: 15px;
+}

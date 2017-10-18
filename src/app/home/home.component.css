@@ -11,53 +11,29 @@
 }
 
 .music-card {
+    color: white;
     background: url(../../images/card_music.jpg) center/cover;
     background-image: url(../../images/card_music.jpg);
-    height: 300px;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial
+    height: 300px;   
 }
 
 .photo-card {
+    color: white;
     background: url(../../images/card_photo.jpg) center/cover;
     background-image: url(../../images/card_photo.jpg);
     height: 400px;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial
 }
 
 .game-card {
+    color: white;
     background: url(../../images/card_game.jpg) center/cover;
     background-image: url(../../images/card_game.jpg);
     height: 200px;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial
 }
 
 .merch-card {
+    color: white;
     background: url(../../images/card_merch.jpg) center/cover;
     background-image: url(../../images/card_merch.jpg);
     height: 250px;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial
 }

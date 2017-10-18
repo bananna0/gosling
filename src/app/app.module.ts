@@ -13,6 +13,8 @@ import { HomeComponent } from './home/index';
 import { GameComponent } from './game/index';
 import { MusicComponent } from './music/index';
 import { PhotoComponent } from './photo/index';
+import { WikiComponent } from './wiki/index';
+import { LinksComponent } from './links/index';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PhotoComponent } from './photo/index';
     HomeComponent,
     GameComponent,
     MusicComponent,
-    PhotoComponent  
+    PhotoComponent,
+    WikiComponent,
+    LinksComponent  
   ],
   imports: [
     BrowserModule,
