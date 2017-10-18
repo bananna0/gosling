@@ -8,6 +8,7 @@ import { VgOverlayPlayModule } from 'videogular2/overlay-play';
 import { VgBufferingModule } from 'videogular2/buffering';
 
 import { routes } from './app.routes';
+import { DataModule } from './data';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/index';
 import { GameComponent } from './game/index';
@@ -32,7 +33,8 @@ import { LinksComponent } from './links/index';
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,
+    DataModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

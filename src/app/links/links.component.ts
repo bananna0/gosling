@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { LinkModel } from '../models';
+import { DataService } from '../data';
+
 @Component({
   selector: 'links',
   templateUrl: './links.component.html',
@@ -7,7 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LinksComponent implements OnInit {
 
-  constructor() { }
+  private links: LinkModel[];
+
+  constructor(dataService: DataService) { 
+
+    this.links = dataService.getLinks();
+    
+  }
 
   ngOnInit() {
   }
