@@ -30,4 +30,12 @@ export class DataService {
     ];
   }
 
+  public getPhotos(): any {
+
+  }
+
+  public getAudios(): any {
+    
+  }
+
 }
