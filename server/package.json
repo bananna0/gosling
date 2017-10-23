@@ -4,7 +4,11 @@
   "description": "server-side for gosling site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outDir build",
+    "lint": "tslint \"src/**/*.ts\"",
+    "start": "node build/server.js",
+    "go": "npm run build && npm run start"
   },
   "author": "Anna Ivanova",
   "license": "ISC",
