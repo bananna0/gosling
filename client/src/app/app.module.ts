@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { MdlModule } from 'angular2-mdl';
 import { RouterModule } from '@angular/router';
 import { VgCoreModule } from 'videogular2/core';
@@ -30,6 +31,7 @@ import { LinksComponent } from './links/index';
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes, { useHash: true }),
+    HttpClientModule,
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,

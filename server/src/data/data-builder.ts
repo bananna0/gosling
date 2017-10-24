@@ -1,3 +1,3 @@
-export class DataBuilder {
 
+export class DataBuilder {
 }

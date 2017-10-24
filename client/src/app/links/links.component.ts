@@ -13,9 +13,9 @@ export class LinksComponent implements OnInit {
   private links: LinkModel[];
 
   constructor(dataService: DataService) { 
-
-    this.links = dataService.getLinks();
-    
+    dataService.getLinks().subscribe(
+      data => this.links = data
+    );
   }
 
   ngOnInit() {

@@ -5,7 +5,7 @@ import  { ContactController } from './api';
 // Create a new express application instance
 const app: express.Application = express();
 // The port the express app will listen on
-const port: number = 8200;
+const port: number = 4200;
 
 // Mount the WelcomeController at the /welcome route
 app.use('/contacts', ContactController);
