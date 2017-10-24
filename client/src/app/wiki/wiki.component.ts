@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { DataService } from '../data';
+import { WikiModel } from '../models';
+
 @Component({
   selector: 'wiki',
   templateUrl: './wiki.component.html',
@@ -7,7 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WikiComponent implements OnInit {
 
-  constructor() { }
+  private wikiData: WikiModel;
+
+  constructor(dataService: DataService) { 
+    dataService.getWiki().subscribe(
+      data => this.wikiData = data
+    );
+  }
 
   ngOnInit() {
   }

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { LinkModel } from '../models';
+import { LinkModel, WikiModel } from '../models';
 
 @Injectable()
 export class DataService {
@@ -22,7 +22,8 @@ export class DataService {
 
   }
 
-  public getWiki(): any {
-
+  public getWiki(): Observable<WikiModel> {
+    return this.http
+      .get<WikiModel>('/wiki');
   }
 }

@@ -1,6 +1,6 @@
 /* app/server.ts */
 import * as express from 'express';
-import  { ContactController } from './api';
+import  { ContactController, WikiController } from './api';
 
 // Create a new express application instance
 const app: express.Application = express();
@@ -9,6 +9,7 @@ const port: number = 4200;
 
 // Mount the WelcomeController at the /welcome route
 app.use('/contacts', ContactController);
+app.use('/wiki', WikiController);
 
 // Serve the application at the given port
 app.listen(port, () => {

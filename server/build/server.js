@@ -9,6 +9,7 @@ var app = express();
 var port = 4200;
 // Mount the WelcomeController at the /welcome route
 app.use('/contacts', api_1.ContactController);
+app.use('/wiki', api_1.WikiController);
 // Serve the application at the given port
 app.listen(port, function () {
     // Success callback

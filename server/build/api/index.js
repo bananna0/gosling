@@ -4,3 +4,4 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./contacts.controller"));
+__export(require("./wiki.controller"));
