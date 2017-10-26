@@ -7,11 +7,13 @@ import { LinkModel, WikiModel } from '../models';
 @Injectable()
 export class DataService {
 
+  private SERVER_URL = 'http://localhost:4200/api';
+
   constructor(private http: HttpClient) { }
 
   public getLinks(): Observable<LinkModel[]> {
     return this.http
-      .get<LinkModel[]>('/contacts');
+      .get<LinkModel[]>(`${this.SERVER_URL}/contacts`);
   }
 
   public getPhotos(): any {
@@ -24,6 +26,6 @@ export class DataService {
 
   public getWiki(): Observable<WikiModel> {
     return this.http
-      .get<WikiModel>('/wiki');
+      .get<WikiModel>(`${this.SERVER_URL}/wiki`);
   }
 }

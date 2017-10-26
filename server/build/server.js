@@ -13,5 +13,5 @@ app.use('/wiki', api_1.WikiController);
 // Serve the application at the given port
 app.listen(port, function () {
     // Success callback
-    console.log("Listening at http://localhost:" + port + "/");
+    console.log("Listening at http://localhost:" + port + "/api");
 });
